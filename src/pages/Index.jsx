@@ -1,5 +1,5 @@
 import React from 'react'
-import portada from '../components/portada/Portada'
+import portada from '../components/Portada'
 
 export default function index() {
   return (
