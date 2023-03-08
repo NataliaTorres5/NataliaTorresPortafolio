@@ -12,7 +12,7 @@ export default function NavBar() {
     </div>
     <div className='n-right'>
       <div className="n-list">
-        <ul>
+        <ul style={{listStyleType: 'none'}}>
           <li>Home</li>
           <li>Sobre Mi</li>
           <li>Languages</li>
@@ -21,7 +21,7 @@ export default function NavBar() {
           <li>Proyectos</li>
         </ul>
       </div>
-      <button className="button">
+      <button className="n-button button ">
         Contactame
       </button>
     </div>
