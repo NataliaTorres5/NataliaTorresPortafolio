@@ -1,0 +1,57 @@
+.intro{
+    display: flex;
+    height:77vh;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 2.5rem;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex:1;
+
+}
+
+.i-right{
+    display: flex;
+    flex:1;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name>:nth-child(1){
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color:var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--grey);
+}
+
+.i-button{
+  width: 6rem;
+  height: 2rem; 
+}
+
+.i-icons{
+display: flex;
+gap: 0rem;
+}
+
+.i-icons>*{
+    transform: scale(0.3);
+    cursor:pointer;
+}
