@@ -3,6 +3,7 @@ import './Intro.css'
 import gitHubLogo from '../../img/gitHubLogo.png'
 import linkedinLogo from '../../img/linkedinLogo.png'
 import cvLogo from '../../img/cvLogo.png'
+import mailLogo from '../../img/mailLogo.png'
 import portfolioImg from '../../img/portfolioImg.png'
 
 
@@ -25,14 +26,18 @@ export default function Intro() {
             <a href="https://www.linkedin.com/in/nataliamtorresm/">
               <img src={linkedinLogo} alt="" />
             </a>
+            <a href="mailto: nataliatorres88@gmail.com">
+              <img src={mailLogo} alt="" />
+            </a>
           </div>
         </div>
+        
 
 
       </div>
       <div className="i-right">
 
-        I am right side
+      <img src={portfolioImg} alt="" />
 
       </div>
     </div>
