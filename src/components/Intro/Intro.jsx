@@ -5,6 +5,9 @@ import linkedinLogo from '../../img/linkedinLogo.png'
 import cvLogo from '../../img/cvLogo.png'
 import mailLogo from '../../img/mailLogo.png'
 import portfolioImg from '../../img/portfolioImg.png'
+import idea from '../../img/idea.png'
+import document from '../../img/paperIdeas.png'
+import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
 
 export default function Intro() {
@@ -31,13 +34,17 @@ export default function Intro() {
             </a>
           </div>
         </div>
-        
-
-
       </div>
       <div className="i-right">
 
-      <img src={portfolioImg} alt="" />
+        <div>
+          <FloatingDiv image={idea} txt1="Full-Stack" txt2='Developer' />
+        </div>
+        <img src={portfolioImg} alt="" />
+
+        <div>
+        <FloatingDiv image={document} txt1="Proyects" txt2='for you' />
+        </div>
 
       </div>
     </div>
