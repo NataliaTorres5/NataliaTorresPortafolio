@@ -37,12 +37,13 @@ export default function Intro() {
       </div>
       <div className="i-right">
 
-        <div>
+        <div className='f-div1' style={{top:'-4%', left:'68%'}} >
           <FloatingDiv image={idea} txt1="Full-Stack" txt2='Developer' />
         </div>
-        <img src={portfolioImg} alt="" />
 
-        <div>
+        <img src={portfolioImg} alt="portfolio img" />
+
+        <div className='f-div2' style={{top:'18rem', left:'0rem'}}>
         <FloatingDiv image={document} txt1="Proyects" txt2='for you' />
         </div>
 
