@@ -18,6 +18,11 @@
     flex:1;
 }
 
+.i-right>img{
+    display: flex;
+    flex:1;
+}
+
 .i-name{
     display: flex;
     flex-direction: column;
@@ -57,7 +62,25 @@ gap: 0rem;
 }
 
 .i-right{
-    flex:1;
+    display: flex;
     position:relative;
     margin-left: 1rem;
+}
+
+.f-div1{
+    display: flex;
+    height: 20vh;
+    align-self: center;
+}
+
+.i-right>:nth-child(1)>FloatingDiv{
+    position:relative;
+    top: -4% !important;
+    left: 68% !important;
+}
+
+.i-right>:nth-child(3)>img{
+    position:relative;
+    top: 18rem !important;
+    left: 0rem !important;
 }
