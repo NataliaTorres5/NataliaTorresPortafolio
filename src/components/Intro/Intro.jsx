@@ -10,6 +10,7 @@ import document from '../../img/paperIdeas.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
 
+
 export default function Intro() {
   return (
     <div className="intro">
@@ -17,7 +18,7 @@ export default function Intro() {
         <div className="i-name">
           <span>Hola! soy </span>
           <span>Natalia Torres</span>
-          <span>Desarrolladora Full-Stack  MERN, cuento con +700h de desarrollo, donde realicé proyectos tanto grupales como  individuales, utilizando metodologías Agile / SCRUM trabajando con las siguientes tecnologías: HTML, CSS, JavaScript, React , Redux, Node, Express, MongoDB, Moongose, React Native, Git y GitHub.</span>
+          <span>Desarrolladora Full-Stack  MERN</span>
           <button className='button i-button'>Contratame</button>
           <div className="i-icons">
             <a href="https://github.com/NataliaTorres5">
@@ -48,6 +49,8 @@ export default function Intro() {
         </div>
 
       </div>
+
+      
     </div>
   )
 }

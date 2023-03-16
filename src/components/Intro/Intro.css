@@ -1,3 +1,7 @@
+.a-divider{
+    padding-left: 5rem;
+}
+
 .intro{
     display: flex;
     height:77vh;
