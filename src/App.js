@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Index from './pages/Index';
 import NavBar from './components/NavBar/NavBar';
 import Intro from './components/Intro/Intro';
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
        <NavBar/>
        <Intro/>
+       <AboutMe/>
   
       </header>
     </div>
