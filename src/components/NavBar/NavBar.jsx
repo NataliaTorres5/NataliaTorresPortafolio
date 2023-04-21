@@ -15,7 +15,7 @@ export default function NavBar() {
         <ul style={{listStyleType: 'none'}}>
           <li>Home</li>
           <li>Sobre Mi</li>
-          <li>Languages</li>
+          <li>Languages, Frameworks y más</li>
           <li>Certificados</li>
           <li>Experiencia</li>
           <li>Proyectos</li>
